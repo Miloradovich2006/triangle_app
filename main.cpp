@@ -7,10 +7,10 @@ int main() {
     std::cin >> a >> b >> c;
     
     if (!approved(a, b, c)) {
-        std::cout << "Треугольник не существует." << std::endl;
+        std::cout << "The triangle does not exist." << std::endl;
         return 0;
     }
     
-    else { std::cout << "Треугольник существует." << std::endl;}
+    else { std::cout << "The triangle exists." << std::endl;}
     return 0;
 }
