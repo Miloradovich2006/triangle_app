@@ -1,5 +1,6 @@
 #include <iostream>
 #include "triangle_existence.h"
+#include "triangle_perimeter.h"
 
 int main() {
     double a, b, c;
@@ -12,5 +13,7 @@ int main() {
     }
     
     else { std::cout << "The triangle exists." << std::endl;}
+
+    std::cout << "Perimeter: " << perimeter(a, b, c) << std::endl;
     return 0;
 }
